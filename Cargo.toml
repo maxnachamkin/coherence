@@ -1,6 +1,6 @@
 [workspace]
 members = [
-  "zomes/peershare"
+  "zomes/coherence"
 ]
 
 [profile.dev]
