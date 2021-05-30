@@ -7,7 +7,7 @@ module.exports = async (orchestrator) => {
   orchestrator.registerScenario("Who am I", async (s, t) => {
     const alice_cell = await InstallAgentApp(s, "alice-cell");
 
-    let hello_world_result = await alice_cell.call("peershare", "hello_world", {
+    let hello_world_result = await alice_cell.call("coherence", "hello_world", {
       content: "Hello to Holochain",
     });
 
